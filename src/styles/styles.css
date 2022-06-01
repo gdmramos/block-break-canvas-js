@@ -1,0 +1,31 @@
+body {
+  background-color: #212121;
+}
+
+.neon {
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+  0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+}
+
+.container {
+  align-items: center;
+  height: 100vh;
+  padding-top: 40px;
+  position: relative;
+  width: 100vw;
+}
+
+#gameScreen {
+  border: 1px solid black;
+  background-image: url('../assets/images/synth.jpg');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
